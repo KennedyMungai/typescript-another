@@ -1,5 +1,7 @@
 class User {
-    constructor(parameters) {
-        
-    }
+    name: string;
+    location: {
+        lat: number;
+        lng: number;
+    };
 }
