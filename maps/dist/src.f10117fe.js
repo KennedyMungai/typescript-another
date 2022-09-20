@@ -117,13 +117,48 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"src/index.ts":[function(require,module,exports) {
+})({"src/User.ts":[function(require,module,exports) {
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.User = void 0;
+
+var faker_1 = __importDefault(require("faker"));
+
+var User =
+/** @class */
+function () {
+  function User() {
+    this.name = faker_1.default.name.firstName();
+    this.location = {
+      lat: parseFloat(faker_1.default.address.latitude()),
+      lng: parseFloat(faker_1.default.address.longitude())
+    };
+  }
+
+  return User;
+}();
+
+exports.User = User;
+},{}],"src/index.ts":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-},{}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+var User_1 = require("./User");
+
+var user = new User_1.User();
+},{"./User":"src/User.ts"}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
