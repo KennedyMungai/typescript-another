@@ -4,7 +4,7 @@ interface Vehicle {
     broken: boolean
 };
 
-const oldCivic = {
+const oldCivic: Vehicle = {
     name: 'civic',
     year: 2000,
     broken: true
