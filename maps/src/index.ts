@@ -6,4 +6,4 @@ import { User } from "./User";
 const user = new User();
 const company = new Company();
 
-const customMap = new CustomMap();
+const customMap = new CustomMap('map');
