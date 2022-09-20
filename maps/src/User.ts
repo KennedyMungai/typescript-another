@@ -1,4 +1,8 @@
 class User {
+    constructor() {
+        
+    }
+
     name: string;
     location: {
         lat: number;
