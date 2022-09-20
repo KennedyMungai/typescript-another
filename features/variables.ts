@@ -6,3 +6,6 @@ let nothing: undefined = undefined;
 
 // Built in objects
 let now: Date = new Date();
+
+//Array
+let colors: string[] = ['red', 'blue', 'green'];
