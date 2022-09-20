@@ -24,6 +24,6 @@ let point: {x: number; y:number} = {
 };
 
 // Functions
-const logNumber = (i) => {
+const logNumber = (i: number) => {
     console.log(i);
 };
