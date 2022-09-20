@@ -36,3 +36,11 @@ console.log(coordinates);
 
 // 2) When the variable is declared on one line 
 //    and initialized on another
+let words = ['red', 'green', 'blue'];
+let foundWord;
+
+for (let i = 0; i < words.length; i++) {
+    if (words[i] === 'green') {
+        foundWord = true;
+    }
+}
