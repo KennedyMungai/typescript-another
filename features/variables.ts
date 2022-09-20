@@ -9,3 +9,8 @@ let now: Date = new Date();
 
 //Array
 let colors: string[] = ['red', 'blue', 'green'];
+
+//Classes
+class Car {
+    
+}
