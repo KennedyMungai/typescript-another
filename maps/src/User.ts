@@ -1,3 +1,5 @@
+import faker from 'faker';
+
 class User {
     constructor() {
         
