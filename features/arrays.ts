@@ -10,7 +10,7 @@ const carByMake: string[][] = [
 const carMaker: string = carMakers[0];
 
 const carMakersStuff = carMakers.map((maker: string): string => {
-    return `${maker} boiii`;
+    return maker.toUpperCase();
 });
 
 console.log(carMakersStuff);
