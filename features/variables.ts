@@ -12,5 +12,5 @@ let colors: string[] = ['red', 'blue', 'green'];
 
 //Classes
 class Car {
-    
+    brand: string = "Mercedes"
 }
