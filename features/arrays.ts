@@ -1,2 +1,1 @@
-const carMakers = ['ford', 'GM', 'chevrolet', 'peugout', 'chrysler'];
-console.log(carMakers[0]);
+const carMakers: string[] = ['ford', 'GM', 'chevrolet', 'peugout', 'chrysler'];
