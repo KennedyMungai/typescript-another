@@ -16,3 +16,9 @@ class Car {
 }
 
 let car: Car = new Car();
+
+// Object Literal
+let point = {
+    x: 10,
+    y: 20
+};
