@@ -5,3 +5,6 @@ const carByMake: string[][] = [
     ['corolla'],
     ['camaro'],
 ]
+
+// Help with inference when extracting values
+const carMaker = carMakers[0];
