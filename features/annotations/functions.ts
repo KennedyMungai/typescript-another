@@ -17,3 +17,8 @@ const throwError = ( message: string ): string => {
 
     return message;
 };
+
+const todaysWeather = {
+    date: new Date(),
+    weather: 'sunny'
+};
