@@ -11,3 +11,5 @@ const printVehicle = (vehicle: {name: string, year: number, broken: boolean}): v
             Broken: ${vehicle.broken}        
     `);
 };      
+
+printVehicle(oldCivic);
