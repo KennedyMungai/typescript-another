@@ -1,1 +1,1 @@
-const apples: number = 5;
+let apples: number = 5;
