@@ -1,4 +1,11 @@
 class Vehicle {
+    /**
+     *
+     */
+    constructor(public color: string) {
+        
+    }
+
     drive(): void {
         console.log("Something something fast in mu car");
     }
@@ -13,7 +20,7 @@ class Tractor extends Vehicle {
      *
      */
     constructor() {
-        super();
+        super("Orange");
         
     }
 
