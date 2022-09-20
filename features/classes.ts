@@ -16,6 +16,10 @@ class Tractor extends Vehicle {
         super();
         
     }
+
+    drive(): void {
+        console.log('Vroom!');
+    }
 }
 
 // const vehicle = new Vehicle();
