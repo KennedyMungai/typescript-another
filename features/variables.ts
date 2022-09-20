@@ -33,3 +33,6 @@ const logNumber: (i: number) => void = (i: number) => {
 const json = '{"x": 10, "y": 20}';
 const coordinates: {x: number, y: number} = JSON.parse(json);
 console.log(coordinates);
+
+// 2) When the variable is declared on one line 
+//    and initialized on another
