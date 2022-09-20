@@ -1,7 +1,8 @@
 interface Vehicle {
     name: string,
     year: number,
-    broken: boolean
+    broken: boolean,
+    Summary(): string 
 };
 
 const oldCivic: Vehicle = {
