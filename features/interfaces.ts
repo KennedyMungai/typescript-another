@@ -10,7 +10,7 @@ const oldCivic = {
     broken: true
 };
 
-const printVehicle = (vehicle: {name: string, year: number, broken: boolean}): void => {
+const printVehicle = (vehicle: Vehicle): void => {
     console.log(`
         Name: ${vehicle.name}
         Year: ${vehicle.year}        
