@@ -10,7 +10,7 @@ interface Todo {
 }
 
 axios.get(url).then(response => {
-        const todo = response.data;
+        const todo = response.data as Todo;
 
         const ID = todo.id;
         const title = todo.title;
