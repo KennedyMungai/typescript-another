@@ -7,4 +7,4 @@ const carByMake: string[][] = [
 ]
 
 // Help with inference when extracting values
-const carMaker = carMakers[0];
+const carMaker: string = carMakers[0];
