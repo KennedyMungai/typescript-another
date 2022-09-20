@@ -14,3 +14,5 @@ let colors: string[] = ['red', 'blue', 'green'];
 class Car {
     brand: string = "Mercedes"
 }
+
+let car: Car = new Car();
