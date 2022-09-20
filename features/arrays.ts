@@ -8,3 +8,7 @@ const carByMake: string[][] = [
 
 // Help with inference when extracting values
 const carMaker: string = carMakers[0];
+
+const carMakersStuff = carMakers.map((maker) => {
+    return `${maker} boiii`;
+});
