@@ -16,6 +16,15 @@ const oldCivic: Vehicle = {
     }
 };
 
+const notdrink = {
+    color: 'brown', 
+    carbonated: true,
+    sugar: 40,
+    summary(): string {
+        return `My drink is ${this.color}. Is it carbonated? ${this.carbonated}. It has ${this.sugar} units of sugar`;
+    }
+};
+
 const printVehicle = (vehicle: Vehicle): void => {
     console.log(vehicle.Summary());
 };      
