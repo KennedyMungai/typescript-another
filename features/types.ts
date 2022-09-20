@@ -9,5 +9,3 @@ class Color {
 };
 
 const blue: Color = new Color();
-
-console.log(blue.name);
