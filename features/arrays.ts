@@ -13,4 +13,7 @@ const carMakersStuff = carMakers.map((maker: string): string => {
     return maker.toUpperCase();
 });
 
-console.log(carMakersStuff);
+// console.log(carMakersStuff);
+
+// Flexible types
+const importantDates: (string | Date)[] = [new Date(), '23-10-2020'];
