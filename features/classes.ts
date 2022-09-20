@@ -19,7 +19,7 @@ class Tractor extends Vehicle {
     /**
      *
      */
-    constructor() {
+    constructor(public wheels: number, color: string) {
         super("Orange");
         
     }
@@ -33,6 +33,6 @@ class Tractor extends Vehicle {
 // vehicle.drive();
 // vehicle.honk();
 
-const tractor = new Tractor();
+const tractor = new Tractor(3,"Dank");
 tractor.drive();
 tractor.honk();
