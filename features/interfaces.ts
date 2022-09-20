@@ -8,15 +8,16 @@ interface Vehicle {
 const oldCivic: Vehicle = {
     name: 'civic',
     year: 2000,
-    broken: true
+    broken: true,
+    Summary(): string {
+        return `
+            ${this.name} was made in ${this.year} and is it broken? ${this.broken}
+        `;
+    }
 };
 
 const printVehicle = (vehicle: Vehicle): void => {
-    console.log(`
-        Name: ${vehicle.name}
-        Year: ${vehicle.year}        
-        Broken: ${vehicle.broken}        
-    `);
+    console.log(vehicle.Summary());
 };      
 
 printVehicle(oldCivic);
