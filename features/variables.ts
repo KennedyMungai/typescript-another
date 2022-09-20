@@ -44,3 +44,5 @@ for (let i = 0; i < words.length; i++) {
         foundWord = true;
     }
 }
+
+// 3) When the variable type can't be inferred
