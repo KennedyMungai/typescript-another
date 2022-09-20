@@ -22,3 +22,8 @@ const todaysWeather = {
     date: new Date(),
     weather: 'sunny'
 };
+
+const logWeather = ({ date, weather }) => {
+    console.log(date);
+    console.log(weather);
+}
