@@ -5,5 +5,9 @@ const oldCivic = {
 };
 
 const printVehicle = (vehicle: {name: string, year: number, broken: boolean}): void => {
-    
+    console.log(`
+            Name: ${vehicle.name}
+            Year: ${vehicle.year}        
+            Broken: ${vehicle.broken}        
+    `);
 };      
