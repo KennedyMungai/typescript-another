@@ -1,6 +1,14 @@
 import { Company } from "./Company";
 import { User } from "./User";
 
+
+interface Mappable {
+    location: {
+        lat:number;
+        lng: number;
+    }
+}
+
 export class CustomMap {
     private googleMap: google.maps.Map;
 
