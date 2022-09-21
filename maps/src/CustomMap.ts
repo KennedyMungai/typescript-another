@@ -26,5 +26,9 @@ export class CustomMap {
                 lng: mappable.location.lng
             }
         });
+
+        marker.addListener('click', () => {
+
+        });
     }
 }
