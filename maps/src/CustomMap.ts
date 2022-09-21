@@ -28,7 +28,9 @@ export class CustomMap {
         });
 
         marker.addListener('click', () => {
-
+            const infoWindow = new google.maps.InfoWindow({
+                content: 'Hi there'
+            }); 
         });
     }
 }
