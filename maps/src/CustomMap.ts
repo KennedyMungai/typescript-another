@@ -14,7 +14,7 @@ export class CustomMap {
         });
     }
 
-    addUserMarker(user: User): void {
+    addMarker(user: User): void {
         new google.maps.Marker({
             map : this.googleMap, 
             position: {
