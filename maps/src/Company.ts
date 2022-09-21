@@ -20,8 +20,10 @@ export class Company {
 
     markerContent(): string {
         return `
-        <h1>Company Name: ${this.companyName}</h1>
-        <h3>Catchphrase: ${this.catchPhrase}</h3>
+        <div>
+            <h1>Company Name: ${this.companyName}</h1>
+            <h3>Catchphrase: ${this.catchPhrase}</h3>
+        </div>
         `;
     }
 }
